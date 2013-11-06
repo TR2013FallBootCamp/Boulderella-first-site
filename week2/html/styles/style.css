@@ -3,7 +3,7 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
 
     color: rgb(0,0,0);
-    background-image: url(images/swiss1.jpg);
+    background-image: url(../images/swiss1.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     background-color: #FFFFCC }
