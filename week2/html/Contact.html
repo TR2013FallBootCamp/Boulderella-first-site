@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My first styled page</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles/style20.css">
 
   </head>
@@ -27,9 +27,22 @@
     <ul class="contact">
       <li> <a href="https://www.facebook.com/tiffany.duhl" target="_TOP" title="Tiffany Rae Duhl"><img src="images/FBicon.png" style="border: 0px;" width="80" height="80"></a>
       <li><img class="nopad" src="images/envelope.jpg" style="border: 0px;" width="120" height="80">
+    <br>
+    <br>
+    <form action="contact_form.php" method="post">
+      Your name<br>
+      <input type="text" name="cf_name"><br>
+      Your e-mail<br>
+      <input type="text" name="cf_email"><br>
+      Message<br>
+      <textarea name="cf_message"><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
 
-        </div>
-        <div id="footer">
+
+    </div>
+    <div id="footer">
     <address>Created 21 October 2013</address>
         </div>
       </div>
